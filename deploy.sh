@@ -1,7 +1,7 @@
 #! /bin/bash
 
 SHA1=$1
-EB_BUCKET=elasticbeanstalk-us-west-2-ciecleci
+EB_BUCKET=elasticbeanstalk-us-west-2-circleci
 
 # Deploy image to Docker Hub
 docker push apingjian/hello:$SHA1
