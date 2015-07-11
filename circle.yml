@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   pre:
-    - docker build -t circleci/hello:$CIRCLE_SHA1 .
+    - docker build -t apingjian/hello:$CIRCLE_SHA1 .
 
 test:
   post:
