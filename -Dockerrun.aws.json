@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "circleci/hello:<TAG>",
+    "Name": "circleci/hello:",
     "Update": "true"
   },
   "Ports": [
